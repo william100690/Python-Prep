@@ -7,7 +7,7 @@ const markdownItAnchor = require('markdown-it-anchor')
 const markdownItHighlightJS = require('markdown-it-highlightjs')
 const readerBar = require('henry-reader-bar')
 const readingTime = require('henry-reading-time')
-print("Hola")
+
 const mdOptions = {
   html: true,
   breaks: true,
