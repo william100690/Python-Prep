@@ -2,5 +2,7 @@ from modulo_william import prueba
 
 
 
-n1 = prueba(50)
-print(n1.conversion("K","F"))
+
+print(prueba.conversion(50,"C","K"))
+print(prueba.primo(15))
+print(prueba(50))
