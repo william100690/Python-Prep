@@ -1,3 +1,8 @@
+#1) Con la clase creada en el módulo 7, tener en cuenta diferentes casos en que el código 
+# pudiera arrojar error. Por ejemplo, en la creación del objeto recibimos una lista de números enteros 
+# pero ¿qué pasa si se envía otro tipo de dato?
+
+
 class prueba:
     def __init__(self,numero):
         self.numero = numero
@@ -43,3 +48,7 @@ class prueba:
         for i in range(1,self.numero+1):
             elemento = elemento * i
         return f"El factorial de {self.numero} es {elemento}"
+
+
+
+n1 = prueba("25")
